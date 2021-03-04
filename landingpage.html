@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <title>Daniela da Rosa|Promoção</title>
+    <meta charset=UTF-8>
+    <meta name=author content="YouthReladed">
+    <meta name=description content="">
+    <meta name=keywords content="Estética, Beleza, Sombrancelha, Cuidado com a pele">
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+
+    <link rel=stylesheet href="css/default.css">
+
+    <link rel=stylesheet media="screen and (max-width:480px)" href="css/estilo480.css">
+    <link rel=stylesheet media="screen and (min-width: 481px) and (max-width:839px) " href="css/estilo839.css">
+    <link rel=stylesheet media="screen and (min-width: 840px) and (max-width:1024px) " href="css/estilo1024.css">
+    <link rel=stylesheet media="screen and (min-width: 1025px)" href="css/estilo1025.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/890dd275a5.js" crossorigin="anonymous"></script>
+  </head>
+  <body style="">
+    <div id="container">
+    <a href="index.html"><img class="logo"src="img/logo.png" alt="logo Daniela da Rosa"></a>
+   <div class="login-box">
+   <h1>Cadastre-se já e ganhe desconto de 10%! </h1>
+  <div class="textbox">
+    <input type="text" placeholder="Email">
+  </div>
+  <div class="textbox">
+    <input type="password" placeholder="Senha">
+  </div>
+  <select id="cidade" name="country">
+    <option value="">Cidade</option>
+    <option value="">Jandira</option>
+    <option value="">Carapicuíba</option>
+    <option value="">Itapevi</option>
+  </select>
+  <div class="textbox">
+    <input type="text" placeholder="Outra cidade...">
+  </div>
+  <input type="checkbox" name="vehicle3" value="Boat" checked>Eu li e concordo com a <a href="politicadeprivacidade.html">Política de privacidade.</a><br>
+  <input type="button" class="btn" value="Receba já seu desconto !">
+</div>
+      </div>
+      <div class="mensagem">
+          <span><i class="far fa-frown 2x " style="font-size:45px;;padding: 10px; color: #9E0414;" ></i><p>Oops...Este site só se encontra disponível
+             para dispositivos móveis.</p></span>
+        </div>
+  </body>
+  <script>
+      //Menu responsivo//
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+     //------------------------Efeito de mudar de cor ao scrollar-----------------------------//
+     $(window).scroll(function(event){
+    
+    var yOffset = window.pageYOffset;
+    var breakpoint = 50;
+    if (yOffset > breakpoint){
+      $("nav").addClass('scroll');
+    }else{
+      $("nav").removeClass('scroll');
+    }
+    
+    });
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
+  
+  </html>
+
+
+   <div class="mensagem">
+      <span><i class="far fa-frown 2x " style="font-size:45px;;padding: 10px; color: #9E0414;" ></i><p>Oops...Este site só se encontra disponível
+         para dispositivos móveis.</p></span>
+    </div>
+  </body>
+</html>
+<style>
+    @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+    body{
+      background-attachment: fixed;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("img/landing.jpeg");
+      height: 650px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      
+    }
+ </style>

@@ -1,0 +1,14 @@
+body{background-color:whitesmoke;}
+
+#container{
+    display: none;
+}
+
+div.mensagem{
+    font-family: Poppins;
+    text-align: center;
+    padding: 200px 50px;
+    font-size:22pt ;
+    color: #9E0414;
+    
+  }
